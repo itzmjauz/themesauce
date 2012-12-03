@@ -1,6 +1,4 @@
----------------------------
--- Default awesome theme --
----------------------------
+-- solarized awesome theme --
 
 theme = {}
 
