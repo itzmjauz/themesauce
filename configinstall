@@ -1,0 +1,6 @@
+#!/bin/sh
+pluginpath="$(dirname "$(readlink -f $0)")"
+
+for cur in google-chrome chromium; do
+    cat $pluginpath/chrome-*/Custom.css > "$HOME/.config/$cur/Default/User StyleSheets/Custom.css"
+done
