@@ -1,6 +1,6 @@
 -- solarized awesome theme --
 
-theme = {}
+local theme = {}
 
 theme.font          = 'monospace 7'
 
@@ -40,7 +40,7 @@ theme.menu_height = '15'
 theme.menu_width  = '100'
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { 'awsetbg ' .. os.getenv('HOME') .. '/.configs/theme/background.png' }
+theme.wallpaper = theme.bg_normal
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = '/usr/share/awesome/themes/default/layouts/fairhw.png'
