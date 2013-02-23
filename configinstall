@@ -5,4 +5,4 @@ for cur in google-chrome chromium; do
     cat $pluginpath/chrome-*/Custom.css > "$HOME/.config/$cur/Default/User StyleSheets/Custom.css"
 done
 
-ln -svf $pluginpath/dircolors-solarized/dircolors.256dark "$HOME/.dircolors"
+ln -svf $pluginpath/dircolors/dircolors.256dark "$HOME/.dircolors"

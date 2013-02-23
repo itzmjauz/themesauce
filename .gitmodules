@@ -1,6 +1,6 @@
 [submodule "chrome-devtools-solarized"]
 	path = chrome-devtools-solarized
 	url = https://github.com/Calvein/solarized-dark-skin-chrome-devtools.git
-[submodule "dircolors-solarized"]
-	path = dircolors-solarized
-	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "dircolors"]
+	path = dircolors
+	url = https://github.com/seebi/dircolors-solarized
