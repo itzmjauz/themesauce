@@ -6,5 +6,4 @@ for cur in google-chrome chromium; do
 done
 
 ln -svf $pluginpath/dircolors/dircolors.256dark "$HOME/.dircolors"
-ln -svf $pluginpath/vim.pre "$HOME/.vim/bundle/theme"
-ln -svf $pluginpath/vim.post "$HOME/.vim/bundle/theme"
+ln -svf $pluginpath/vim "$HOME/.vim/bundle/theme"
