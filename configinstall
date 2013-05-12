@@ -9,5 +9,5 @@ ln -svf $pluginpath/dircolors/dircolors.256dark "$HOME/.dircolors"
 ln -svf $pluginpath/vim "$HOME/.vim/bundle/theme"
 
 mkdir -pv "$HOME/.fonts"
-ln -svf "$pluginpath/Inconsolata-dz-Powerline.otf" "$HOME/.fonts"
+ln -vf "$pluginpath/Inconsolata-dz-Powerline.otf" "$HOME/.fonts"
 fc-cache
